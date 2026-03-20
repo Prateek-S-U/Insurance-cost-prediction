@@ -1,11 +1,11 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from scikit-learn.model_selection import train_test_split
-from scikit-learn.preprocessing import LabelEncoder
-from scikit-learn.metrics import r2_score
-from scikit-learn.linear_model import LinearRegression
-from scikit-learn.ensemble import RandomForestRegressor
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+from sklearn.metrics import r2_score
+from sklearn.linear_model import LinearRegression
+from sklearn.ensemble import RandomForestRegressor
 df = pd.read_csv("insurance.csv")
 print("Dataset Loaded Successfully!")
 print(df.head())
